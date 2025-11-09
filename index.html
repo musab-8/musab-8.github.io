@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MUSAB MUDAWI — Information Security Expert | Portfolio</title>
+  <meta name="description" content="Portfolio of Musab Mudawi — Information Security student specializing in web pentesting, bug bounties, and CTF challenges. Explore my projects and skills." />
+  <meta name="keywords" content="information security, web pentesting, bug bounty, CTF, cybersecurity, ethical hacking" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Musab Mudawi - Information Security Portfolio" />
+  <meta property="og:description" content="Information Security student focused on web application security, CTFs and practical pentesting." />
+  <meta property="og:type" content="website" />
+  
+  <!-- Favicon -->
+  <link rel="icon" href="image/musab.org" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css" />
+  
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading" class="loading-screen">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <div class="logo-nav">
+          <a href="#home" class="logo">
+            <span class="logo-text">MUSAB</span>
+            <span class="logo-accent">MUDAWI</span>
+          </a>
+          <nav class="nav-desktop">
+            <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+            <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+            <a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a>
+            <a class="nav-link" href="#projects"><i class="fas fa-folder"></i> Projects</a>
+            <a class="nav-link" href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
+            <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+          </nav>
+        </div>
+        <div class="header-actions">
+          <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button id="downloadResume" class="btn-resume">
+            <i class="fas fa-download"></i> Resume
+          </button>
+          <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+      <a class="nav-link" href="#home"><i class="fas fa-home"></i> Home</a>
+      <a class="nav-link" href="#about"><i class="fas fa-user"></i> About</a>
+      <a class="nav-link" href="#skills"><i class="fas fa-code"></i> Skills</a>
+      <a class="nav-link" href="#projects"><i class="fas fa-folder"></i> Projects</a>
+      <a class="nav-link" href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
+      <a class="nav-link" href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+    </nav>
+  </div>
+
+  <!-- Main Container -->
+  <div class="main-container">
+    <div class="container">
+      <div class="layout" id="home">
+        
+        <!-- Sidebar -->
+        <aside class="sidebar">
+          <div class="sidebar-sticky">
+            <div class="profile-card">
+              <div class="avatar">
+                <img src="image/musabmudawi.jpg" alt="Musab Mudawi - Information Security Expert" />
+                <div class="avatar-status"></div>
+              </div>
+              
+              <div class="profile-info">
+                <h1 class="profile-name">Musab Mudawi</h1>
+                <p class="profile-role">
+                  <i class="fas fa-shield-alt"></i>
+                  Information Security Student
+                </p>
+                <p class="profile-subtitle">Bug Bounties · Web Pentesting · CTF</p>
+              </div>
+
+              <div class="profile-meta">
+                <div class="meta-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>Fez, Morocco</span>
+                </div>
+                <div class="meta-item">
+                  <i class="fas fa-briefcase"></i>
+                  <span>Open to Freelance</span>
+                </div>
+              </div>
+
+              <div class="contact-info">
+                <h3 class="section-subtitle">Contact</h3>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <a href="mailto:musab@example.com">musab@example.com</a>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <span>+212 6X XX XX XX</span>
+                </div>
+              </div>
+
+              <div class="social-links">
+                <a href="#" class="social-link" aria-label="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="Twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="social-link" aria-label="HackerOne">
+                  <i class="fas fa-bug"></i>
+                </a>
+              </div>
+
+              <div class="tech-stack">
+                <h3 class="section-subtitle">Tech & Tools</h3>
+                <div class="tech-chips">
+                  <span class="chip"><i class="fab fa-linux"></i> Linux</span>
+                  <span class="chip"><i class="fab fa-python"></i> Python</span>
+                  <span class="chip"><i class="fab fa-js"></i> JavaScript</span>
+                  <span class="chip"><i class="fas fa-bug"></i> Burp Suite</span>
+                  <span class="chip"><i class="fab fa-docker"></i> Docker</span>
+                  <span class="chip"><i class="fas fa-terminal"></i> Metasploit</span>
+                  <span class="chip"><i class="fas fa-network-wired"></i> Wireshark</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+          
+          <!-- Hero Section -->
+          <section class="hero-section panel">
+            <div class="hero-content">
+              <div class="hero-text">
+                <h2 class="hero-title">
+                  Hi — I'm Musab. 
+                  <span class="typing-text">I build secure web apps and hunt bugs.</span>
+                </h2>
+                <p class="hero-description">
+                  I am an information security student focused on web application security, 
+                  CTF competitions, and practical penetration testing. I build security tools, 
+                  develop vulnerable web applications for educational purposes, and document 
+                  detailed write-ups for each project.
+                </p>
+                <div class="hero-stats">
+                  <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Projects Completed</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">8</div>
+                    <div class="stat-label">Bug Bounties</div>
+                  </div>
+                  <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">CTF Challenges</div>
+                  </div>
+                </div>
+                <div class="hero-actions">
+                  <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                    <i class="fas fa-folder"></i> View Projects
+                  </button>
+                  <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                    <i class="fas fa-envelope"></i> Contact Me
+                  </button>
+                </div>
+              </div>
+              <div class="hero-cards">
+                <div class="info-card glow">
+                  <i class="fas fa-check-circle card-icon"></i>
+                  <div class="card-label">Availability</div>
+                  <div class="card-value">Freelance · Part-time</div>
+                </div>
+                <div class="info-card">
+                  <i class="fas fa-trophy card-icon"></i>
+                  <div class="card-label">Latest Achievement</div>
+                  <div class="card-value">HackTheBox — Blue</div>
+                </div>
+                <div class="info-card">
+                  <i class="fas fa-code card-icon"></i>
+                  <div class="card-label">Current Focus</div>
+                  <div class="card-value">Web App Security</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- About Section -->
+          <section id="about" class="panel section-spacing">
+            <h2 class="section-title">
+              <i class="fas fa-user-shield"></i>
+              About Me
+            </h2>
+            <div class="about-content">
+              <p class="about-text">
+                I am currently studying Information Security with a strong passion for ethical hacking 
+                and web application security. My journey in cybersecurity started with curiosity about 
+                how systems work and evolved into a deep commitment to understanding and securing them.
+              </p>
+              <p class="about-text">
+                I specialize in building small automation tools for reconnaissance, writing comprehensive 
+                bug bounty reports, and actively participating in Capture The Flag (CTF) competitions. 
+                My approach combines theoretical knowledge with hands-on practice, ensuring I understand 
+                both the attack and defense perspectives.
+              </p>
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <i class="fas fa-graduation-cap"></i>
+                  <div>
+                    <strong>Education</strong>
+                    <p>Information Security Student</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-code-branch"></i>
+                  <div>
+                    <strong>Experience</strong>
+                    <p>3+ Years in Cybersecurity</p>
+                  </div>
+                </div>
+                <div class="highlight-item">
+                  <i class="fas fa-award"></i>
+                  <div>
+                    <strong>Focus Areas</strong>
+                    <p>Web Security & Pentesting</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills Section -->
+          <section id="skills" class="panel section-spacing">
+            <h2 class="section-title">
+              <i class="fas fa-code"></i>
+              Technical Skills
+            </h2>
+            <div class="skills-grid">
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-shield-alt skill-icon"></i>
+                  <h3>Web Pentesting</h3>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 84%"></div>
+                </div>
+                <div class="skill-percentage">84%</div>
+              </div>
+              
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-bug skill-icon"></i>
+                  <h3>Bug Bounty</h3>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 74%"></div>
+                </div>
+                <div class="skill-percentage">74%</div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-python skill-icon"></i>
+                  <h3>Python</h3>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 76%"></div>
+                </div>
+                <div class="skill-percentage">76%</div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-js skill-icon"></i>
+                  <h3>JavaScript</h3>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 68%"></div>
+                </div>
+                <div class="skill-percentage">68%</div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fas fa-network-wired skill-icon"></i>
+                  <h3>Network Security</h3>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 72%"></div>
+                </div>
+                <div class="skill-percentage">72%</div>
+              </div>
+
+              <div class="skill-card">
+                <div class="skill-header">
+                  <i class="fab fa-linux skill-icon"></i>
+                  <h3>Linux Administration</h3>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+                <div class="skill-percentage">80%</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects Section -->
+          <section id="projects" class="panel section-spacing">
+            <h2 class="section-title">
+              <i class="fas fa-folder-open"></i>
+              Featured Projects
+            </h2>
+            
+            <div class="filter-buttons">
+              <button class="filter-btn active" onclick="filterProjects('all')">
+                <i class="fas fa-th"></i> All
+              </button>
+              <button class="filter-btn" onclick="filterProjects('web')">
+                <i class="fas fa-globe"></i> Web Apps
+              </button>
+              <button class="filter-btn" onclick="filterProjects('tools')">
+                <i class="fas fa-tools"></i> Tools
+              </button>
+              <button class="filter-btn" onclick="filterProjects('reports')">
+                <i class="fas fa-file-alt"></i> Reports
+              </button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+              <!-- Projects will be dynamically inserted here -->
+            </div>
+          </section>
+
+          <!-- Certifications Section -->
+          <section id="certifications" class="panel section-spacing">
+            <h2 class="section-title">
+              <i class="fas fa-certificate"></i>
+              Certifications & Achievements
+            </h2>
+            <div class="certifications-grid">
+              <div class="cert-card">
+                <div class="cert-badge">
+                  <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>CompTIA Security+</h3>
+                <p>In Progress</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-badge">
+                  <i class="fas fa-user-secret"></i>
+                </div>
+                <h3>CEH (Certified Ethical Hacker)</h3>
+                <p>Preparing</p>
+              </div>
+              <div class="cert-card">
+                <div class="cert-badge">
+                  <i class="fas fa-trophy"></i>
+                </div>
+                <h3>HackTheBox Pro Hacker</h3>
+                <p>Achieved</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+          <section id="contact" class="panel section-spacing">
+            <h2 class="section-title">
+              <i class="fas fa-envelope-open-text"></i>
+              Get In Touch
+            </h2>
+            <div class="contact-container">
+              <div class="contact-intro">
+                <p>Have a project in mind or want to discuss security matters? 
+                   Feel free to reach out. I'm always interested in collaborating 
+                   on interesting projects or discussing cybersecurity topics.</p>
+              </div>
+              <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="name">
+                      <i class="fas fa-user"></i> Your Name
+                    </label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">
+                      <i class="fas fa-envelope"></i> Your Email
+                    </label>
+                    <input type="email" id="email" name="email" required placeholder="john@example.com" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="subject">
+                    <i class="fas fa-tag"></i> Subject
+                  </label>
+                  <input type="text" id="subject" name="subject" placeholder="Project Inquiry" />
+                </div>
+                <div class="form-group">
+                  <label for="message">
+                    <i class="fas fa-comment-alt"></i> Your Message
+                  </label>
+                  <textarea id="message" name="message" required placeholder="Tell me about your project or inquiry..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-submit">
+                  <i class="fas fa-paper-plane"></i> Send Message
+                </button>
+              </form>
+              <div id="formMessage" class="form-message"></div>
+            </div>
+          </section>
+
+          <!-- Footer -->
+          <footer class="footer">
+            <div class="footer-content">
+              <div class="footer-social">
+                <a href="#" class="footer-social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer-social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer-social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer-social-link"><i class="fas fa-bug"></i></a>
+              </div>
+              <p class="footer-text">
+                © <span id="year"></span> Musab Mudawi — Designed with 
+                <i class="fas fa-heart"></i> and built with passion for security.
+              </p>
+              <p class="footer-note">All projects are for educational purposes only.</p>
+            </div>
+          </footer>
+
+        </main>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Project Details -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-overlay" onclick="closeModal()"></div>
+    <div class="modal-content">
+      <button onclick="closeModal()" class="modal-close" aria-label="Close modal">
+        <i class="fas fa-times"></i>
+      </button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
